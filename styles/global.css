@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Inconsolata", sans-serif;
+}
+
+body {
+  background-color: #c3e6d6;
+  /* #F2E0EA; */
+  color: #242424;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+p { 
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: #457348;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.page-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.page-container {
+  background-color: white;
+  width: 540px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 3vh;
+  /* border-radius: 10px; */
+}
+
+.left-align {
+  text-align: left;
+  width: 420px;
+  margin: auto;
+}
+
+.navbar-deco {
+  font-family: sans-serif;
+}
+
+/* 
+ABOUT PAGE
+*/
+#pogoImg {
+  display: none;
+  width: 200px;
+  margin: auto;
+}
+
+/* 
+MUSIC PLAYER
+ */
+#music-player {
+  margin-top: 50px;
+}
+
+/* 
+NAVBAR/PAGES
+*/
+
+#aboutPageBtn {
+  color: #242424;
+}
+
+.navbar-btn {
+  color: #a0a0a0;
+}
+
+.navbar-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#builds-page, #shelf-page {
+  display: none;
+}
+
