@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #c3e6d6;
+  /* background-color: #c3e6d6; */
   /* #F2E0EA; */
   color: #242424;
 }
@@ -105,3 +105,21 @@ NAVBAR/PAGES
   display: none;
 }
 
+
+/* 
+AUDIO PLAYER
+ */
+ audio {
+  height: 40px;
+  width: 320px;
+}
+
+#music-prev, #music-next {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#music-controls {
+  vertical-align: middle;
+}
