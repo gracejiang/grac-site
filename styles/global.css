@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 
 * {
   margin: 0px;
@@ -8,9 +9,15 @@
 }
 
 body {
-  /* background-color: #c3e6d6; */
+  background-image: url("../img/background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #808080;  */
+  /* #c3e6d6; */
   /* #F2E0EA; */
   color: #242424;
+  height: 100vh;
 }
 
 ul {
@@ -19,12 +26,13 @@ ul {
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-family: "Tiny5", sans-serif;
+  font-size: 2rem;
   margin-bottom: 0.6rem;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 0.4rem;
 }
 
@@ -50,7 +58,9 @@ a:hover {
 
 .page-container {
   background-color: white;
-  width: 540px;
+  border: 2px solid black;
+  border-top: 30px solid black;
+  width: 640px;
   margin: auto;
   margin-top: 100px;
   text-align: center;
@@ -60,12 +70,19 @@ a:hover {
 
 .left-align {
   text-align: left;
-  width: 420px;
+  width: 480px;
   margin: auto;
 }
 
 .navbar-deco {
   font-family: sans-serif;
+}
+
+.page-banner {
+  background-color: black;
+  padding: 4px;
+  text-align: center;
+  color: white;
 }
 
 /* 
@@ -97,7 +114,6 @@ NAVBAR/PAGES
 }
 
 .navbar-btn:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
