@@ -42,13 +42,17 @@ p {
 }
 
 a {
-  color: #457348;
+  color: #3737a3;
+  background-color: #e6e4f5;
+  padding: 1px;
+   /* #2a2a87; */
   text-decoration: none;
 }
 
 a:hover {
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: #dbd8f0;
 }
 
 .page-section {
@@ -104,7 +108,6 @@ MUSIC PLAYER
 /* 
 NAVBAR/PAGES
 */
-
 #aboutPageBtn {
   color: #242424;
 }
