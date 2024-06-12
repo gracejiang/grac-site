@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // 'audio/i3you.mp3',
         'audio/photo_id.mp3',
         'audio/music_sounds_better_with_you.mp3',
+        'audio/this_is_me.mp3',
+        'audio/d.mp3',
         'audio/take_me_where_your_heart_is.mp3',
-        'audio/jubilife_city.mp3',
         // 'audio/look_at_the_sky.mp3'
     ];
     let currentTrackIndex = 0;

@@ -1,49 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
 
 * {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: "Inconsolata", sans-serif;
 }
 
 body {
-  background-image: url("../img/background.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: #808080;  */
-  /* #c3e6d6; */
-  /* #F2E0EA; */
-  color: #242424;
-  height: 100vh;
+  background-color: #dbedc2;
+  font-family: "Nanum Gothic Coding", "Inconsolata", "IBM Plex Mono", sans-serif;
+  /* color: #242424; */
+  color: #3f4741;
+
 }
 
 ul {
   list-style-type: none;
-  font-size: 0.9rem;
+  line-height: 120%;
+  font-size: 1.1rem;
 }
 
 h1 {
   font-family: "Tiny5", sans-serif;
-  font-size: 2rem;
+  font-size: 5rem;
   margin-bottom: 0.6rem;
+  /* color: #143d18; */
+
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-family: "Tiny5", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem;
   margin-bottom: 0.4rem;
 }
 
 p { 
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   margin-bottom: 0.4rem;
 }
 
 a {
-  color: #3737a3;
-  background-color: #e6e4f5;
+  color: #70ad13;
+  background-color: #edf5e1;
   padding: 1px;
    /* #2a2a87; */
   text-decoration: none;
@@ -51,7 +57,6 @@ a {
 
 a:hover {
   cursor: pointer;
-  /* text-decoration: underline; */
   background-color: #dbd8f0;
 }
 
@@ -61,32 +66,18 @@ a:hover {
 }
 
 .page-container {
-  background-color: white;
-  border: 2px solid black;
-  border-top: 30px solid black;
-  width: 640px;
+  max-width: 1200px;
   margin: auto;
-  margin-top: 100px;
-  text-align: center;
-  padding: 3vh;
-  /* border-radius: 10px; */
+  margin-top: 60px;
+  padding: 4vh;
 }
 
-.left-align {
-  text-align: left;
-  width: 480px;
-  margin: auto;
-}
-
-.navbar-deco {
-  font-family: sans-serif;
-}
-
-.page-banner {
+.page-banner p {
   background-color: black;
   padding: 4px;
   text-align: center;
   color: white;
+  font-size: 1rem;
 }
 
 /* 
@@ -95,7 +86,6 @@ ABOUT PAGE
 #pogoImg {
   display: none;
   width: 200px;
-  margin: auto;
 }
 
 /* 
@@ -108,11 +98,14 @@ MUSIC PLAYER
 /* 
 NAVBAR/PAGES
 */
-#aboutPageBtn {
+#homePageBtn {
   color: #242424;
 }
 
 .navbar-btn {
+  /* font-family: sans-serif; */
+  font-size: 1.6rem;
+  font-weight: bold;
   color: #a0a0a0;
 }
 
@@ -120,7 +113,7 @@ NAVBAR/PAGES
   cursor: pointer;
 }
 
-#builds-page, #shelf-page {
+#about-page, #builds-page, #shelf-page {
   display: none;
 }
 
@@ -141,4 +134,16 @@ AUDIO PLAYER
 
 #music-controls {
   vertical-align: middle;
+}
+
+/* cat pixels */
+/* .cat-pixel {
+  width: 16px;
+} */
+
+.cat-pixel {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  width: 32px;
 }
