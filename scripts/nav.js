@@ -40,29 +40,3 @@ builds_page_btn.addEventListener('click', function() {
 shelf_page_btn.addEventListener('click', function() {
     setActivePage(shelf_page_btn, shelf_page);
 });
-
-// POGO CODE
-var pogo_btn = document.getElementById('pogoBtn');
-var pogo_img = document.getElementById('pogoImg');
-pogo_img.style.display = 'none';
-
-// Debounce the POGO button click event
-function debounce(func, delay) {
-    let timer;
-    return function() {
-        clearTimeout(timer);
-        timer = setTimeout(func, delay);
-    }
-}
-
-// Batch style changes for POGO button
-function togglePogoImage() {
-    if (pogo_img.style.display === 'none') {
-        pogo_img.style.display = 'block';
-    } else {
-        pogo_img.style.display = 'none';
-    }
-}
-
-// Attach debounced event listener to POGO button
-pogo_btn.addEventListener('click', debounce(togglePogoImage, 100));

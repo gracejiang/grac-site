@@ -29,7 +29,7 @@ ul {
 
 h1 {
   font-family: "Tiny5", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 0.6rem;
   /* color: #143d18; */
 
@@ -60,38 +60,17 @@ a:hover {
   background-color: #dbd8f0;
 }
 
-/* PAGE FORMATTING */
-.page-container {
-  max-width: 920px;
-  margin: auto;
-  margin-top: 160px;
-  padding: 4vh;
-}
-
-.left-section {
-  vertical-align: top;
-  display: inline-block;
-  width: 28%;
-  text-align: right;
-}
-
-.divider-10 {
-  display: inline-block;
-  width: 10%;
-  background-color: pink;
-}
-
-.right-section {
-  vertical-align: top;
-  display: inline-block;
-  width: 58%;
-}
-
 .page-section {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.page-container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 60px;
+  padding: 4vh;
+}
 
 .page-banner p {
   background-color: black;
@@ -101,14 +80,9 @@ a:hover {
   font-size: 1rem;
 }
 
-
 /* 
 ABOUT PAGE
 */
-
-.about-list li {
-  margin-bottom: 4px;
-}
 #pogoImg {
   display: none;
   width: 200px;
@@ -124,20 +98,15 @@ MUSIC PLAYER
 /* 
 NAVBAR/PAGES
 */
-
 #homePageBtn {
   color: #242424;
-}
-
-.navbar {
-  color: #a0a0a0;
 }
 
 .navbar-btn {
   /* font-family: sans-serif; */
   font-size: 1.6rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  color: #a0a0a0;
 }
 
 .navbar-btn:hover {
